@@ -24,7 +24,7 @@ esac
 APP_ID="snake-game"
 APP_NAME="Snake Game"
 AUTHOR="waskevin"
-VERSION="1.0.0"
+VERSION="1.0.001"
 LOW_VERSION="TOS7.0"
 LISTEN_PORT="18601"
 SERVICE_ID="${APP_ID}-service"

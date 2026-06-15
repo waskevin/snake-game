@@ -4,8 +4,8 @@ This workspace builds a TOS 7 external-open Snake app as a dual deb package.
 
 Outputs:
 
-- `snake-game-app_<version>_all.deb`: metadata package
-- `snake-game-service_<version>_<arch>.deb`: runnable service package
+- `snake-game-app_1.0.001_all.deb`: metadata package
+- `snake-game-service_1.0.001_<arch>.deb`: runnable service package
 - `snake-game_<platform>.tar.gz`: final delivery archive
 - `snake-game_<platform>.tar.gz.sha256`: checksum for the final archive
 

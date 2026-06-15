@@ -22,7 +22,7 @@ case "${TARGET}" in
 esac
 
 APP_ID="snake-game"
-VERSION="1.0.0"
+VERSION="1.0.001"
 DIST_DIR="${ROOT_DIR}/dist/${TARGET}"
 DATA_DEB="${DIST_DIR}/${APP_ID}-app_${VERSION}_all.deb"
 SERVICE_DEB="${DIST_DIR}/${APP_ID}-service_${VERSION}_${DEB_ARCH}.deb"
@@ -105,7 +105,7 @@ expected = {
     "maxmin": True,
     "width": 0,
     "height": 0,
-    "version": "1.0.0",
+    "version": "1.0.001",
     "low_version": "TOS7.0",
     "category": ["Utilities"],
     "depend": [],
@@ -139,7 +139,7 @@ fi
 
 require_contains "${INSPECT_DIR}/data-control.txt" '^Package: snake-game-app$'
 require_contains "${INSPECT_DIR}/data-control.txt" '^Architecture: all$'
-require_contains "${INSPECT_DIR}/data-control.txt" '^Depends: snake-game-service \(= 1\.0\.0\)$'
+require_contains "${INSPECT_DIR}/data-control.txt" '^Depends: snake-game-service \(= 1\.0\.001\)$'
 require_contains "${INSPECT_DIR}/service-control.txt" '^Package: snake-game-service$'
 require_contains "${INSPECT_DIR}/service-control.txt" '^Architecture: '"${DEB_ARCH}"'$'
 
