@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Snake Game">
+  <rect width="256" height="256" rx="52" fill="#17322a"/>
+  <path d="M48 126c0-36 29-66 65-66h44c28 0 51 23 51 51 0 26-21 47-47 47h-27c-13 0-24 11-24 24s11 24 24 24h42" fill="none" stroke="#9dd07f" stroke-linecap="round" stroke-linejoin="round" stroke-width="26"/>
+  <circle cx="168" cy="111" r="7" fill="#17322a"/>
+  <circle cx="194" cy="186" r="19" fill="#d65a31"/>
+  <path d="M194 150c9 8 14 18 14 30" fill="none" stroke="#fff0d6" stroke-linecap="round" stroke-width="6"/>
+</svg>
